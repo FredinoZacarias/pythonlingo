@@ -7,23 +7,23 @@
 <meta name="description" content="Aprende Python jogando — de zero a programador em 30 dias. Gamificado, em Português, feito para Angola. Grátis para começar.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
 
-<!-- Open Graph: pré-visualização bonita ao partilhar o link no WhatsApp, Facebook, etc. -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Pythonlingo 🐍 — Aprende Python jogando">
-<meta property="og:description" content="De zero a programador em 30 dias. Gamificado, em Português, feito para Angola. Começa grátis!">
-<meta property="og:image" content="https://fredinozacarias.github.io/pythonlingo/og-image.png">
-<meta property="og:url" content="https://fredinozacarias.github.io/pythonlingo/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pythonlingo 🐍 — Aprende Python jogando">
-<meta name="twitter:description" content="De zero a programador em 30 dias. Feito para Angola.">
-<meta name="twitter:image" content="https://fredinozacarias.github.io/pythonlingo/og-image.png">
+<!-- Open Graph: pré-visualização bonita ao compartilhar o link no WhatsApp, Facebook, etc.
+
+
+< meta  property = "og:description"  content = "De zero a programador em 30 dias. Gamificado, em Português, feito para Angola. Começa grátis!" >
+< meta  propriedade = "og:image"  content = "https://fredinozacarias.github.io/pythonlingo/og-image.png" >
+< meta  propriedade = "og:url"  content = "https://fredinozacarias.github.io/pythonlingo/" >
+< meta  name = "twitter:card"  content = "summary_large_image" >
+< meta  name = "twitter:title"  content = "Pythonlingo 🐍 — Aprenda Python jogando" >
+< meta  name = "twitter:description"  content = "De zero a programador em 30 dias. Feito para Angola." >
+< meta  name = "twitter:image"  content = "https://fredinozacarias.github.io/pythonlingo/og-image.png" >
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fira+Code:wght@400;600;700&display=swap" rel="stylesheet">
 <!-- Firebase -->
-<script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, updateProfile, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult }
-    from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-  import { getFirestore, doc, setDoc, getDoc, collection, query, orderBy, limit, getDocs, where }
+< script  type = "module" >
+  import  {  initializeApp  }  from  "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js" ;
+  import  {  getAuth , createUserWithEmailAndPassword , signInWithEmailAndPassword , signOut , onAuthStateChanged , updateProfile , GoogleAuthProvider , signInWithPopup , signInWithRedirect , getRedirectResult  }
+    de  "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js" ;
+    collection, query, orderBy, limit, getDocs, where }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
   const firebaseConfig = {
