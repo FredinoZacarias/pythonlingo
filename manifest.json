@@ -1,0 +1,18 @@
+{
+  "name": "Pythonlingo - Aprende Python jogando",
+  "short_name": "Pythonlingo",
+  "description": "Aprende Python jogando — de zero a programador em 30 dias. Feito para Angola.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131F24",
+  "theme_color": "#131F24",
+  "orientation": "portrait-primary",
+  "lang": "pt",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
